@@ -2,8 +2,8 @@
 
 namespace AdminKit\Banners\Database\Factories;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use AdminKit\Banners\Models\Banner;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class BannerFactory extends Factory
 {

@@ -2,11 +2,11 @@
 
 namespace AdminKit\Banners;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use AdminKit\Banners\Commands\BannersCommand;
 use AdminKit\Banners\Providers\FilamentServiceProvider;
 use AdminKit\Banners\Providers\RouteServiceProvider;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class BannersServiceProvider extends PackageServiceProvider
 {

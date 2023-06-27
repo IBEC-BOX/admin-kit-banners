@@ -2,14 +2,14 @@
 
 namespace AdminKit\Banners\UI\Filament\Resources;
 
+use AdminKit\Banners\Models\Banner;
+use AdminKit\Banners\UI\Filament\Resources\BannerResource\Pages;
 use Filament\Forms;
 use Filament\Resources\Concerns\Translatable;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
 use Filament\Resources\Table;
 use Filament\Tables;
-use AdminKit\Banners\Models\Banner;
-use AdminKit\Banners\UI\Filament\Resources\BannerResource\Pages;
 
 class BannerResource extends Resource
 {

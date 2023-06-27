@@ -2,9 +2,9 @@
 
 namespace AdminKit\Banners\UI\Filament\Resources\BannerResource\Pages;
 
+use AdminKit\Banners\UI\Filament\Resources\BannerResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\CreateRecord;
-use AdminKit\Banners\UI\Filament\Resources\BannerResource;
 
 class CreateBanner extends CreateRecord
 {

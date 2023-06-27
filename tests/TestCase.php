@@ -2,10 +2,10 @@
 
 namespace AdminKit\Banners\Tests;
 
+use AdminKit\Banners\BannersServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use AdminKit\Banners\BannersServiceProvider;
 
 class TestCase extends Orchestra
 {
