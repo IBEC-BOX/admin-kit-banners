@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace AdminKit\Banners\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class BannersCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'admin-kit-banners';
 
     public $description = 'My command';
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace VendorName\Skeleton\UI\Filament\Resources\SingleNameResource\Pages;
+namespace AdminKit\Banners\UI\Filament\Resources\BannerResource\Pages;
 
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\CreateRecord;
-use VendorName\Skeleton\UI\Filament\Resources\SingleNameResource;
+use AdminKit\Banners\UI\Filament\Resources\BannerResource;
 
-class CreateSingleName extends CreateRecord
+class CreateBanner extends CreateRecord
 {
     use CreateRecord\Concerns\Translatable;
 
-    protected static string $resource = SingleNameResource::class;
+    protected static string $resource = BannerResource::class;
 
     protected function getActions(): array
     {

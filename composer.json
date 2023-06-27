@@ -1,17 +1,17 @@
 {
-    "name": ":packagist_name/:package_slug",
-    "description": ":package_description",
+    "name": "ibecsystems/admin-kit-banners",
+    "description": "Banners package for Admin Kit",
     "keywords": [
-        ":github_name",
+        "ibec-box",
         "laravel",
-        ":package_slug"
+        "admin-kit-banners"
     ],
-    "homepage": "https://github.com/:github_name/:package_slug",
+    "homepage": "https://github.com/ibec-box/admin-kit-banners",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Anastas Mironov",
+            "email": "ast@l80.ru",
             "role": "Developer"
         }
     ],
@@ -41,13 +41,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "AdminKit\\Banners\\": "src/",
+            "AdminKit\\Banners\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "AdminKit\\Banners\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "AdminKit\\Banners\\BannersServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Banners": "AdminKit\\Banners\\Facades\\Banners"
             }
         }
     },

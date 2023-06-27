@@ -1,14 +1,14 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace AdminKit\Banners;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
-use VendorName\Skeleton\Providers\FilamentServiceProvider;
-use VendorName\Skeleton\Providers\RouteServiceProvider;
+use AdminKit\Banners\Commands\BannersCommand;
+use AdminKit\Banners\Providers\FilamentServiceProvider;
+use AdminKit\Banners\Providers\RouteServiceProvider;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class BannersServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -18,11 +18,11 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('admin-kit-banners')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_admin_kit_banners_table')
+            ->hasCommand(BannersCommand::class);
     }
 
     public function registeringPackage()

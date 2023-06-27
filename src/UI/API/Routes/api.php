@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use VendorName\Skeleton\UI\API\Controllers\SingleNameController;
+use AdminKit\Banners\UI\API\Controllers\BannerController;
 
-Route::get('/:package_slug_without_prefix', [SingleNameController::class, 'index']);
-Route::get('/:package_slug_without_prefix/{id}', [SingleNameController::class, 'show']);
+Route::get('/banners', [BannerController::class, 'index']);
+Route::get('/banners/{id}', [BannerController::class, 'show']);
