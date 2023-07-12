@@ -18,4 +18,9 @@ class CreateBanner extends CreateRecord
             Actions\LocaleSwitcher::make(),
         ];
     }
+
+    protected function getRedirectUrl(): string
+    {
+        return BannerResource::getUrl();
+    }
 }
